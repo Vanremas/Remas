@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+            src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous"></script>
+</head>
+<body class="index">
+
+<div id="forma"></div>
+
+
+
+<div class="POK"> <div><button type="submit" class="enterBut" id="admBut" onclick="AdminForm()">Вход</button> <input id="searchbar" class="poisk" placeholder="Искать" > <button type="submit" class="subPo" id="searchBut" onclick="search()">Поиск</button> </div></div>
+<div class="genre">
+    <button type="submit" class="genBut" id="Fan">Фэнтези</button>
+    <button type="submit" class="genBut" id="Pov">Повесть</button>
+    <button type="submit" class="genBut" id="Ujas">Ужасы</button>
+    <button type="submit" class="genBut" id="detec">Детектив</button>
+    <button type="submit" class="genBut" id="all">Все</button>
+
+
+</div>
+
+
+
+    <div class="content">
+        <div class="card-list">
+        </div>
+        <div id="book_container">
+        </div>
+    </div>
+
+
+<script src="main.js">
+
+
+</script>
+
+</body>
+</html>
